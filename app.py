@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Đọc dữ liệu đã làm sạch
-data_cleaned = pd.read_csv('D:/HCMUE/ThS/Data Mining/data/cleaned_mooc_dataset.csv')
+data_cleaned = pd.read_csv('./data/cleaned_mooc_dataset.csv')
 
 # Chuyển đổi các cột thời gian từ chuỗi sang định dạng datetime
 data_cleaned['start_time_DI'] = pd.to_datetime(data_cleaned['start_time_DI'])
